@@ -1262,7 +1262,7 @@ body.page #main-content {
   font-size: 14px;
   font-weight: 600;
   color: #fff;
-  background-color: #00A54F !important;
+  background-color:#CF9455 !important;
   padding: 10px 32px;
   border-radius: 4px;
   font-family: "Montserrat", sans-serif;
@@ -1276,7 +1276,7 @@ body.page #main-content {
   display: inline-block;
   font-size: 14px;
   font-weight: 600;
-  color: #082839;
+  color:#CF9455;
   background-color: white !important;
   padding: 10px 32px;
   border-radius: 4px;
@@ -1727,6 +1727,14 @@ body.page #main-content {
   transform: translate3d(0, 0, 0);
   opacity: 1;
   visibility: visible;
+}
+.themesflat-image-box.style-2 .elm-readmore a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #FFFFFF;
+  display: inline-block;
+  margin-top: 10px;
+  position: relative;
 }
 
 .has-effect-icon {
