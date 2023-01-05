@@ -1017,8 +1017,11 @@ h6 a {
   color: #666 !important;
 }
 
+ 
+
 .bg-light-grey {
-  background-color: black !important;
+  background-color: #CF9455 !important;
+  height: 608px;
 }
 
 .bg-white-column {
@@ -1255,6 +1258,37 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   background-color:#CF9455 !important;
   border-color: #CF9455 !important;
+}
+.themesflat-accordions.style-3 .accordion-item.active .accordion-heading {
+   background-color: black; 
+   color: white;
+  font-weigth: 600;
+}
+accordions.style-3 .accordion-item .accordion-heading {
+  font-size: 16px;
+  color: #777;
+  font-weight: 500;
+  border: 1px solid #353434;
+  background-color: transparent;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 11px 0px;
+}
+.themesflat-accordions .accordion-item .accordion-heading {
+  position: relative;
+  margin-bottom: 0;
+  cursor: pointer;
+  position: relative;
+}
+.themesflat-accordions.style-3 .accordion-content {
+  background-color: black;
+  padding: 6px 10px 8px 19px;
+  font-weight: 300;
+  color: #777;
+  margin-top: 4px;
+  border: 1px solid #353434;
+  line-height: 26px;
+  letter-spacing: 0.1px;
 }
 
 .themesflat-counter.style-1 .number-wrap {
@@ -1756,6 +1790,13 @@ h1, h2, h3, h4, h5, h6 {
 .overlay-effect.bg-color-accent {
   background-color: rgba(0, 0, 0, 0.4)
 }
+
+.half-background.style-1 {
+  background-image: url(assets/img/law/Rectangle\ 110.svg);
+  height: 608px;
+}
+
+
 
 .data-effect-item:hover .overlay-effect {
   -webkit-transform: translate3d(0, 0, 0);
@@ -3874,11 +3915,14 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px;
 }
 .themesflat-headings.style-2 .sub-heading {
-  font-size: 10px;
-  line-height: 22px;
+  font-size: 22px;
+  line-height: 40.2px;
   font-weight: 400;
   color: #555;
-  margin-top: 29px;
+  margin-top: 831px;
+  margin-bottom: 29px;
+  font-family: montserrat;
+  margin-left:20px;
 }
 .themesflat-headings .heading, .themesflat-headings .sub-heading {
   margin: 10px;
@@ -3886,14 +3930,23 @@ h1, h2, h3, h4, h5, h6 {
 
 .themesflat-headings .sub-heading {
   font-weight: 300;
-  color: #666;
+  color: #FFFFFF;
 }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0 0 15px;
+  text-rendering: optimizeLegibility;
+}
+
 .themesflat-headings .heading, .themesflat-headings .sub-heading {
   margin: 0px;
 }
 .themesflat-testimonials .sep.has-width.accent-bg, .themesflat-headings .sep.has-width.accent-bg {
   background-color: #CF9455 !important;
-  width: 100% !important;
+  width: 8% !important;
 }
 body.page #main-content {
   padding-top: 0;
@@ -5104,7 +5157,7 @@ img {
   .themesflat-headings.style-1 .new-cardp {
     font-size: 16px;
   }
-
+  
   .head-gallery {
     margin: 0px !important;
   }
