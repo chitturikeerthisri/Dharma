@@ -1264,6 +1264,32 @@ h1, h2, h3, h4, h5, h6 {
    color: white;
   font-weigth: 600;
 }
+.themesflat-accordions.style-4 .accordion-item.active .accordion-heading{
+  background-color: #CF9455;
+    border-color:  1px solid #353434;
+    color: #fff;
+}
+.themesflat-accordions.style-4 .accordion-item .accordion-heading {
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: 500;
+  border: 1px solid #353434;
+  background-color: #CF9455;
+  text-transform: uppercase;
+  padding: 13px 23px;
+}
+.themesflat-accordions.style-4.has-icon.icon-right .accordion-item .accordion-heading > .inner:before {
+  color: #353434;
+
+  font-size: 30px;
+  right: 0px;
+}
+.themesflat-accordions .accordion-item .accordion-heading {
+  position: relative;
+  margin-bottom: 0;
+  cursor: pointer;
+  position: relative;
+}
 accordions.style-3 .accordion-item .accordion-heading {
   font-size: 16px;
   color: #777;
