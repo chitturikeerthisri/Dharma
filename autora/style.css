@@ -703,8 +703,8 @@ input[type="color"] {
 .wpcf7-form textarea,
 .wpcf7-form input {
   margin-bottom: 0;
-  background-color: black !important;
-  color: #909090 !important;
+  background-color:#232323 !important;
+  color: #A4A4A4 !important;
 }
 
 /* Input focus */
@@ -3898,7 +3898,7 @@ h1, h2, h3, h4, h5, h6 {
 .themesflat-image-box.style-2 .heading {
   font-size: 16px;
   line-height: 26px;
-  color: #CF9455
+  color: #CF9455;
   font-weight: 600;
   margin: 0px;
 }
