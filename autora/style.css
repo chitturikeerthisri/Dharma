@@ -823,6 +823,29 @@ a:active {
 .themesflat-testimonials blockquote {
   padding: 0px;
 }
+.themesflat-testimonials.style-3 .inner {
+  padding: 5px 5px 5px 5px;
+}
+.inner {
+  margin-bottom: 6px;
+}
+.themesflat-testimonials.align-center {
+  text-align: left;
+}
+.themesflat-testimonials.style-3 .name-pos .name {
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 40px;
+}
+.themesflat-testimonials .name-pos .name {
+  margin: 20px;
+}
+
+.themesflat-testimonials.style-3 .name-pos .position {
+  color: #EFEFEF;
+  
+}
+
 blockquote {
   position: relative;
   background-color: transparent;
