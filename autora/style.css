@@ -3906,6 +3906,7 @@ accordions.style-3 .accordion-item .accordion-heading {
 .themesflat-testimonials .sep.has-width.accent-bg,
 .themesflat-headings .sep.has-width.accent-bg {
   background-color: #CF9455 !important;
+
 }
 
 .themesflat-headings.style-1 .heading {
@@ -3995,11 +3996,11 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 40.2px;
   font-weight: 400;
   color: #555;
-  margin-top: 831px;
+  margin-top: 20px;
   margin-bottom: 29px;
   font-family: montserrat;
   margin-left:30px;
-  margin-right:10px ;
+  margin-right:20px ;
 }
 .themesflat-headings .heading, .themesflat-headings .sub-heading {
   margin: 10px;
@@ -4023,7 +4024,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .themesflat-testimonials .sep.has-width.accent-bg, .themesflat-headings .sep.has-width.accent-bg {
   background-color: #CF9455 !important;
-  width: 8% !important;
+  width: 100% !important;
 }
 body.page #main-content {
   padding-top: 0;
