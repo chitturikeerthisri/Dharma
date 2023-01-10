@@ -4022,9 +4022,13 @@ h1, h2, h3, h4, h5, h6 {
 .themesflat-headings .heading, .themesflat-headings .sub-heading {
   margin: 0px;
 }
-.themesflat-testimonials .sep.has-width.accent-bg, .themesflat-headings .sep.has-width.accent-bg {
+.themesflat-page-our-stories .sep.has-width.accent-bg, .themesflat-headings .sep.has-width.accent-bg {
   background-color: #CF9455 !important;
   width: 100% !important;
+}
+.themesflat-testimonials .sep.has-width.accent-bg, .themesflat-headings .sep.has-width.accent-bg {
+  background-color: #CF9455 !important;
+  width: 10% !important;
 }
 body.page #main-content {
   padding-top: 0;
@@ -4042,7 +4046,7 @@ widget.widget_list .inner {
   margin-bottom: 6px;
 }
 .themesflat-row .span_1_of_6 {
-  width: 90%;
+  width: 50%;
   float: left;
 }
 .themesflat-image-box.style-2 .text-wrap {
