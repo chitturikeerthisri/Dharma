@@ -950,9 +950,21 @@ h6 a {
 }
 
 .font-size-16 {
-  font-size: 16px !important;
+  font-size: 20px !important;
+  color: #ffffff;
 }
-
+.themesflat-progress.style-1 .title {
+  font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    color: #9C9C9C;
+}
+strong, b, cite {
+  
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+}
 .font-size-14 {
   font-size: 14px !important;
 }
@@ -1412,6 +1424,23 @@ accordions.style-3 .accordion-item .accordion-heading {
   content: "\e900";
     color: white;
 }
+.autora-icon-quality:before {
+  content: "\e90c";
+  color: white;
+}
+.autora-icon-time:before {
+  content: "\e90d";
+  color: white;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0 0 15px;
+  text-rendering: optimizeLegibility;
+}
+
 
 .signup-button {
   align-items: center;
@@ -1452,7 +1481,7 @@ accordions.style-3 .accordion-item .accordion-heading {
     visibility: hidden;
 }
 .themesflat-icon-box.light-bg .icon-wrap {
-  background-color: #282828;
+  background-color:#AB904A !important;
   position: relative;
   z-index: 1;
 }
@@ -3917,18 +3946,15 @@ accordions.style-3 .accordion-item .accordion-heading {
 .themesflat-headings.style-1 .heading {
   font-size: 22px;
   line-height: 26px;
-  color:#BEA35D !important;
+  color:#FFFFFF !important;
   font-weight: 600;
 }
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
-  color:  #BEA35D;
-  
-  font-weight: 600;
-  line-height: 1.5;
-  margin: 0 0 15px;
-  text-rendering: optimizeLegibility;
+.themesflat-icon-box.style-1 .sub-heading{
+  color: #ffffff;
+    line-height: 26px;
+    margin-top: 19px;
 }
+
 .themesflat-progress.style-1 .perc-wrap {
   font-family: "Montserrat", sans-serif;
   color: #9C9C9C;
