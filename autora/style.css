@@ -826,6 +826,7 @@ a:active {
 }
 .themesflat-testimonials.style-3 .inner {
   padding: 5px 5px 5px 5px;
+  background-color: #222222;
 }
 .inner {
   margin-bottom: 6px;
@@ -961,7 +962,7 @@ h6 a {
 }
 strong, b, cite {
   
-    color: #ffffff;
+    color: #BEA35D;
     font-size: 16px;
     font-weight: 600;
 }
@@ -4018,6 +4019,7 @@ h1, h2, h3, h4, h5, h6 {
 .themesflat-headings.style-2 .heading {
   font-size: 22px;
   line-height: 58px;
+  padding-left: 30px;
 }
 .themesflat-headings .heading, .themesflat-headings .sub-heading {
   margin: 10px;
